@@ -5,7 +5,7 @@ namespace Ps_6
     internal class Program
     {
         static SqlDataReader reader;
-        static SqlConnection con = new SqlConnection("Server=DESKTOP-FDHH6M8;Database=Assignment;Trusted_Connection=true");
+        static SqlConnection con = new SqlConnection("Server=DESKTOP-SJSDJAL\\MSSQL;Database=Exercise06Db;Trusted_Connection=true");
         static SqlCommand cmd;
         public static void ViewProducts()
         {
